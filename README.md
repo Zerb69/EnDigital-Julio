@@ -1,3 +1,3 @@
 # EnDigital-Julio
 
-ME CORRO AAAAAAAAAAAAAAAAAAH
+Lo importante esta en la rama master, la funcion de la main quedo para puro Readme
