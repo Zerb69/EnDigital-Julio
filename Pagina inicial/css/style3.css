@@ -6,6 +6,11 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+@keyframes titulo{
+
+}
+
+
 .padding-left-30px{
     padding-left: 30px;
 }
@@ -86,4 +91,81 @@ nav li a:hover{
 
 .galeria img{
     transition: transform 0.5s ease-in-out;
+}
+
+.app{
+    text-align: center;
+}
+
+.planes{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    background-color: var(--white);
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+
+.card{
+    border: 1px solid var(--teal);
+    background-color: var(--secondary-color);
+    align-content: center;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 88%;
+    transition: width 2s, background-color 1.8s;
+}
+
+.card:hover{
+    width: 65%;
+    background-color: var(--primary-color);
+}
+
+.bronce{
+    color: #CD7F32;
+}
+
+.plata{
+    color: silver;
+}
+
+.oro{
+    color: gold;
+}
+
+.plantitulo{
+    text-align: center;
+}
+
+.pago{
+    color: var(--yellow);
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: left;
+    padding: 10px;
+    background-color: var(--black);
+    color: var(--teal);
+}
+
+.logo-footer{
+    width: 60%;
+    height: 150px;
+}
+
+footer p{
+color: var(--white);
+text-decoration: bold;
+text-transform: uppercase;
+}
+
+.social li{
+    display: inline;
+    text-align: center;
 }

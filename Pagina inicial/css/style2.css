@@ -184,21 +184,13 @@ textarea{
     color: var(--teal);
 }
 
-.contacto1{
-    display: grid;
-    align-content: center;
-    grid-template-columns: auto auto;
-    gap: 15px;
-    padding: 10px;
-    margin-top: 10px;
-}
-
 .contacto2{
     display: grid;
     align-content: center;
     grid-template-columns: auto auto;
     gap: 15px;
     padding: 10px;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
